@@ -42,9 +42,16 @@ chart = <any>[];
                   min: 0,
                   stepSize: 1
                 }
+            }],
+            xAxes: [{
+              ticks: {
+                autoSkip: false,
+                maxRotation: 90,
+                minRotation: 90
+              }
             }]
         }
-    }
+      },
     });
   }
 
