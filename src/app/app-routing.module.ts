@@ -4,13 +4,16 @@ import { BarChartComponent } from './components/bar-chart/bar-chart.component';
 import { PieChartComponent } from './components/pie-chart/pie-chart.component';
 import { DoughnutChartComponent } from './components/doughnut-chart/doughnut-chart.component';
 import { RadarChartComponent } from './components/radar-chart/radar-chart.component';
+import { LineChartComponent } from './components/line-chart/line-chart.component'
+import { from } from 'rxjs';
 
 
 const routes: Routes = [
   {path: 'bar-chart', component: BarChartComponent},
   {path: 'pie-chart', component: PieChartComponent},
   {path: 'doughnut-chart', component: DoughnutChartComponent},
-  {path: 'radar-chart', component: RadarChartComponent}
+  {path: 'radar-chart', component: RadarChartComponent},
+  {path: 'line-chart', component: LineChartComponent}
 ];
 
 @NgModule({

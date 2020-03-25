@@ -7,7 +7,8 @@ import { ChartsModule } from 'ng2-charts';
 import { BarChartComponent } from './components/bar-chart/bar-chart.component';
 import { DoughnutChartComponent } from './components/doughnut-chart/doughnut-chart.component';
 import { RadarChartComponent } from './components/radar-chart/radar-chart.component';
-import { PieChartComponent } from './components/pie-chart/pie-chart.component'
+import { PieChartComponent } from './components/pie-chart/pie-chart.component';
+import { LineChartComponent } from './components/line-chart/line-chart.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PieChartComponent } from './components/pie-chart/pie-chart.component'
     BarChartComponent,
     DoughnutChartComponent,
     RadarChartComponent,
-    PieChartComponent
+    PieChartComponent,
+    LineChartComponent
   ],
   imports: [
     BrowserModule,
