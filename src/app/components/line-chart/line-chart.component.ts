@@ -22,7 +22,7 @@ chart = <any>[];
             label: 'Users',
             data: [0,0,0,1,3,2,1,7,9,8, 0,1,2,1,0,2,0,0,0,2,1,2,3,4],
             backgroundColor: 'red',
-            borderColor: 'red',
+            borderColor: '#f54053',
             fill: 'true'
           },
           // {
